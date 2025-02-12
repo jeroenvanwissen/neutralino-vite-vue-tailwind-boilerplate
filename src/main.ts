@@ -17,7 +17,7 @@ events.on('windowClose', onWindowClose)
 neuWindow.focus()
 
 const tray = {
-  icon: '/resources/icons/trayIcon.png',
+  icon: '/dist/icons/trayIcon.png',
   menuItems: [
     { text: '-' }, // A separator
     { id: 'quit', text: 'Quit' },
