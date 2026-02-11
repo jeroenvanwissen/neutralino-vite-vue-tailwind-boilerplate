@@ -13,7 +13,7 @@
     "enabled": true,
     "writeToLogFile": true
   },
-  "nativeAllowList": ["app.*", "os.*", "debug.log"],
+  "nativeAllowList": ["app.*", "os.*", "window.*", "debug.log"],
   "globalVariables": {},
   "modes": {
     "window": {
@@ -61,17 +61,17 @@
       "devCommand": "npm run dev",
       "buildCommand": "npm run build"
     },
-    "binaryVersion": "5.6.0",
-    "clientVersion": "5.6.0"
+    "binaryVersion": "6.5.0",
+    "clientVersion": "6.5.0"
   },
   "buildScript": {
     "mac": {
       "architecture": ["x64", "arm64", "universal"],
       "minimumOS": "14.0.0",
-      "appName": "myapp",
-      "appBundleName": "myApp",
-      "appIdentifier": "com.myapp",
-      "appIcon": "resources/icons/icon.icns"
+      "appName": "neutralino-vite-vue-tailwind",
+      "appBundleName": "NeutralinoViteVueTailwind",
+      "appIdentifier": "com.neutralino-vite-vue-tailwind.app",
+      "appIcon": "resources/icons/appIcon.png"
     }
   }
 }
